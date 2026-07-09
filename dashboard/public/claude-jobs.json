@@ -1,12 +1,93 @@
 {
-  "lastUpdated": "2026-07-07T07:01:52.541461+00:00",
-  "totalJobs": 88,
+  "lastUpdated": "2026-07-09T05:02:26.390278+00:00",
+  "totalJobs": 90,
   "sources": [
     "Anthropic",
     "HackerNews",
     "RemoteOK"
   ],
   "jobs": [
+    {
+      "id": "hn-48833943",
+      "company": "Catalyst·Wayfare AI",
+      "position": "Lead AI Engineer",
+      "location": "Remote (US)",
+      "remote": true,
+      "salary": "",
+      "description": "We build and ship production AI systems for mid-market enterprises in regulated and technical domains — finance, energy, industrials, healthcare. We do not stop at PowerPoint AI strategy. We ship working systems alongside our clients' engineering teams. Small teams, deep expertise, real autonomy on...",
+      "applyUrl": "https://news.ycombinator.com/item?id=48833943",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48833943",
+      "postedAt": "2026-07-08T16:24:22+00:00",
+      "tags": [
+        "Python",
+        "AWS",
+        "GCP",
+        "Claude Code"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "anth-5304425008",
+      "company": "Anthropic",
+      "position": "Staff Software Engineer, Labs: Applied AI",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "At Anthropic, we're building AI systems that are safe, beneficial, and transformative. Our mission is to develop AI that benefits humanity, and we believe the most powerful capabilities emerge when we thoughtfully bridge the gap between research breakthroughs and real-world applications. Applied AI...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5304425008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5304425008",
+      "postedAt": "2026-07-08T15:55:29-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "hn-48823535",
+      "company": "Youth Inc.",
+      "position": "Senior Software Engineer",
+      "location": "On-site",
+      "remote": false,
+      "salary": "$120k–$190k",
+      "description": "We’re a venture-backed e-commerce marketplace and media network for youth and high school sports. We’ve moved from zero to one with real revenue and are now looking for a Senior Engineer to help us scale to serve the 65M American families in this space. Our Stack: Elixir/Phoenix (LiveView),...",
+      "applyUrl": "https://news.ycombinator.com/item?id=48823535",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48823535",
+      "postedAt": "2026-07-07T20:48:44+00:00",
+      "tags": [
+        "Next.js",
+        "Rust",
+        "PostgreSQL",
+        "AWS",
+        "Claude Code"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "hn-48819370",
+      "company": "Rabbet (YC S17)",
+      "position": "Software Engineer",
+      "location": "REMOTE (TX, NC, CO)",
+      "remote": true,
+      "salary": "",
+      "description": "Rabbet is hiring Sr. Software Engineers to help us streamline construction finances. We offer cloud-based software for commercial lenders and real estate developers to centralize construction finances, automate administrative tasks, and reduce the time spent managing draws. Backend is in Elixir...",
+      "applyUrl": "https://news.ycombinator.com/item?id=48819370",
+      "source": "HackerNews",
+      "sourceUrl": "https://news.ycombinator.com/item?id=48819370",
+      "postedAt": "2026-07-07T15:42:29+00:00",
+      "tags": [
+        "React",
+        "PostgreSQL",
+        "AWS",
+        "GCP"
+      ],
+      "companyIcon": ""
+    },
     {
       "id": "hn-48811937",
       "company": "Cora AI",
@@ -98,21 +179,6 @@
       "companyIcon": ""
     },
     {
-      "id": "rok-remote-asset-management-analyst-multifamily-real-estate-bluecore-residential-1134402",
-      "company": "Bluecore Residential",
-      "position": "Asset Management Analyst Multifamily Real Estate",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "100% REMOTE Bluecore Residential is a privately owned real estate investment company headquartered in Newport Beach, CA. Bluecore principals have owned and operated a multifamily portfolio totaling more than 16,000 units located in high-growth secondary markets. Bluecore's competitive advantage...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-asset-management-analyst-multifamily-real-estate-bluecore-residential-1134402",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-asset-management-analyst-multifamily-real-estate-bluecore-residential-1134402",
-      "postedAt": "2026-07-02T16:00:55+00:00",
-      "tags": [],
-      "companyIcon": ""
-    },
-    {
       "id": "hn-48761457",
       "company": "Runway",
       "position": "Trust & Safety Engineer",
@@ -130,32 +196,6 @@
         "Rust",
         "AWS",
         "GCP"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "rok-remote-senior-ai-engineer-architect-lemon-io-1134396",
-      "company": "Lemon.io",
-      "position": "Senior AI Engineer Architect",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Are you a talented Senior AI Engineer/Architect looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your skills and...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-senior-ai-engineer-architect-lemon-io-1134396",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-senior-ai-engineer-architect-lemon-io-1134396",
-      "postedAt": "2026-07-02T12:25:12+00:00",
-      "tags": [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "JavaScript",
-        "Python",
-        "Rust",
-        "Go",
-        "Node.js",
-        "React Native",
-        "Swift"
       ],
       "companyIcon": ""
     },
@@ -411,11 +451,11 @@
     {
       "id": "anth-5198999008",
       "company": "Anthropic",
-      "position": "Technical Specialist, Claude Code",
+      "position": "Technical Architect",
       "location": "London, UK",
       "remote": false,
       "salary": "",
-      "description": "Anthropic is hiring Technical Architects: hands-on builders and live technical communicators who help our customers go from \"we bought Claude\" to \"our people use it every day.\" You'll be the technical partner our CSMs pull into the room whenever the work gets technical — and at our customers,...",
+      "description": "Anthropic is hiring Technical Architects: hands-on builders and live technical communicators who help our customers go from \"we bought Claude\" to \"our people use it every day.\" You'll be the technical partner our CSMs pull into the room whenever the work gets technical. For our customers, that's...",
       "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5198999008",
       "source": "Anthropic",
       "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5198999008",
