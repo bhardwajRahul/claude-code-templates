@@ -1,31 +1,31 @@
 {
-  "lastUpdated": "2026-08-03T04:50:10.806244+00:00",
+  "lastUpdated": "2026-08-06T05:28:53.152817+00:00",
   "totalJobs": 102,
   "sources": [
     "Anthropic",
     "HackerNews",
-    "RemoteOK",
     "WeWorkRemotely"
   ],
   "jobs": [
     {
-      "id": "rok-remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735",
-      "company": "Magic Compass Limited",
-      "position": "GenAI Engineer AI Builder AI Agent Associate Specialist",
-      "location": "Remote",
-      "remote": true,
+      "id": "anth-5109653008",
+      "company": "Anthropic",
+      "position": "Product Design, Manager",
+      "location": "San Francisco, CA | New York City, NY | Seattle, WA",
+      "remote": false,
       "salary": "",
-      "description": "Employment Type: Full-time Contractor, Remote Working Hours: 9:00 AM – 6:00 PM Local Time About the Role We are looking for a proactive GenAI Engineer / AI Builder/ AI Agent Associate / AI Application Specialist to design and build AI-powered workflows and AI Agents that enhance business...",
-      "applyUrl": "https://remoteOK.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735",
-      "source": "RemoteOK",
-      "sourceUrl": "https://remoteok.com/remote-jobs/remote-genai-engineer-ai-builder-ai-agent-associate-specialist-magic-compass-limited-1135735",
-      "postedAt": "2026-07-31T08:46:48+00:00",
+      "description": "Design at Anthropic sits at the intersection of craft, research, and product intuition. We're a small team working on products that millions of people use daily—and on interactions that don't have established conventions yet. Our work shapes how people experience AI: whether Claude feels like a...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5109653008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5109653008",
+      "postedAt": "2026-08-05T13:53:54-04:00",
       "tags": [
-        "Python",
+        "Rust",
+        "AWS",
         "Claude Code",
-        "Cursor"
+        "Anthropic"
       ],
-      "companyIcon": ""
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
       "id": "anth-5355526008",
@@ -662,53 +662,6 @@
       "tags": [
         "Rust",
         "AWS",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "anth-5271428008",
-      "company": "Anthropic",
-      "position": "Staff Software Engineer, Developer Productivity (CI/CD) - Claude Code",
-      "location": "San Francisco, CA",
-      "remote": false,
-      "salary": "",
-      "description": "Every engineer at Anthropic depends on the path from pull request to production. The Developer Productivity team owns that path end to end — review automation, CI, the merge queue, the deploy pipeline, and the policy that gates each step. These pieces exist today; the opportunity is to integrate...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5271428008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5271428008",
-      "postedAt": "2026-06-18T23:28:56-04:00",
-      "tags": [
-        "Python",
-        "Rust",
-        "Go",
-        "AWS",
-        "Kubernetes",
-        "Claude Code",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "anth-5271426008",
-      "company": "Anthropic",
-      "position": "Staff Software Engineer, Developer Productivity (Dev Environments) - Claude Code",
-      "location": "San Francisco, CA",
-      "remote": false,
-      "salary": "",
-      "description": "Every minute an Anthropic engineer or researcher spends waiting on a container to boot, a dependency to resolve, or CI to surface a failure that could have been caught locally is a minute not spent on frontier AI safety. The Developer Productivity team owns the inner development loop for the people...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5271426008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5271426008",
-      "postedAt": "2026-06-18T23:28:54-04:00",
-      "tags": [
-        "Python",
-        "Rust",
-        "Go",
-        "AWS",
-        "Docker",
-        "Kubernetes",
         "Claude Code",
         "Anthropic"
       ],
@@ -2062,6 +2015,27 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
+      "id": "anth-5079511008",
+      "company": "Anthropic",
+      "position": "Applied AI Architect, National Security",
+      "location": "Washington, DC",
+      "remote": false,
+      "salary": "",
+      "description": "As an Applied AI team member at Anthropic, you will be a Pre-Sales architect focused on becoming a trusted technical advisor helping national security and defense agencies understand the value of Claude and paint the vision on how they can successfully integrate and deploy Claude into their...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5079511008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5079511008",
+      "postedAt": "2026-01-22T17:33:12-05:00",
+      "tags": [
+        "Python",
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
       "id": "anth-5074908008",
       "company": "Anthropic",
       "position": "Staff+ Software Engineer, Safeguards Infrastructure ",
@@ -2077,6 +2051,29 @@
         "TypeScript",
         "Python",
         "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5063007008",
+      "company": "Anthropic",
+      "position": "Software Engineer, Cybersecurity Products",
+      "location": "San Francisco, CA",
+      "remote": false,
+      "salary": "",
+      "description": "We're looking for a Software Engineer to join the team building Claude Security. In this role, you'll take new security capabilities in frontier models and turn them into products that customers can rely on, working across the full stack from early prototype through production. This role sits close...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5063007008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5063007008",
+      "postedAt": "2026-01-09T17:55:51-05:00",
+      "tags": [
+        "TypeScript",
+        "Python",
+        "Rust",
+        "Go",
         "AWS",
         "Claude Code",
         "Anthropic"
