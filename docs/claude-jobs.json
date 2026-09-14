@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-09-13T06:32:59.460661+00:00",
-  "totalJobs": 96,
+  "lastUpdated": "2026-09-14T07:29:06.235303+00:00",
+  "totalJobs": 94,
   "sources": [
     "Anthropic",
     "HackerNews",
@@ -729,29 +729,6 @@
       "companyIcon": ""
     },
     {
-      "id": "anth-5391151008",
-      "company": "Anthropic",
-      "position": "AI Operations Engineer, Partnerships",
-      "location": "San Francisco, CA",
-      "remote": false,
-      "salary": "",
-      "description": "Our Partner Experience team is building an AI-native operating model. We already run a growing set of partner-facing systems: a partner portal, CRM workflows, enablement and certification platforms, and the trackers that connect them. The systems lead on our team owns that foundation — the portal,...",
-      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391151008",
-      "source": "Anthropic",
-      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5391151008",
-      "postedAt": "2026-08-14T18:07:17-04:00",
-      "tags": [
-        "JavaScript",
-        "Python",
-        "Rust",
-        "AWS",
-        "Claude Code",
-        "Rails",
-        "Anthropic"
-      ],
-      "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
       "id": "hn-49291876",
       "company": "Alaffia Health",
       "position": "Principal Engineer",
@@ -1055,23 +1032,6 @@
       "tags": [
         "PostgreSQL",
         "Claude Code"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "hn-49160915",
-      "company": "Railway",
-      "position": "Senior Infra Engineer",
-      "location": "REMOTE (Worldwide)",
-      "remote": true,
-      "salary": "",
-      "description": "Do you feel scared and alone when opening the AWS console? Do you wish you could just tell Claude to manage your infra, and it would just work? Do you dream of a future where software is abundant and developers and normies alike are free to build their wildest dreams? We're Railway, and we think...",
-      "applyUrl": "https://news.ycombinator.com/item?id=49160915",
-      "source": "HackerNews",
-      "sourceUrl": "https://news.ycombinator.com/item?id=49160915",
-      "postedAt": "2026-08-03T20:21:05+00:00",
-      "tags": [
-        "AWS"
       ],
       "companyIcon": ""
     },
