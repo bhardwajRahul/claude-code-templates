@@ -1,12 +1,115 @@
 {
-  "lastUpdated": "2026-09-16T08:06:48.184515+00:00",
+  "lastUpdated": "2026-09-19T07:35:01.029740+00:00",
   "totalJobs": 93,
   "sources": [
     "Anthropic",
     "HackerNews",
+    "RemoteOK",
     "WeWorkRemotely"
   ],
   "jobs": [
+    {
+      "id": "anth-5427479008",
+      "company": "Anthropic",
+      "position": "Customer Success Manager, Public Sector (National Security) ",
+      "location": "Washington, DC",
+      "remote": false,
+      "salary": "",
+      "description": "As a Customer Success Manager on Anthropic's Public Sector team, you will be the post-sales trusted advisor helping national security customers realize the value of Claude and turn their investment into mission impact. You'll combine your customer success expertise with technical fluency to drive...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5427479008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5427479008",
+      "postedAt": "2026-09-18T18:50:40-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5369102008",
+      "company": "Anthropic",
+      "position": "Engineering Manager, Labs",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "At Anthropic, we're building AI systems that are safe, beneficial, and transformative. Our mission is to develop AI that benefits humanity, and we believe the most powerful capabilities emerge when we thoughtfully bridge the gap between research breakthroughs and real-world applications. Anthropic...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5369102008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5369102008",
+      "postedAt": "2026-09-17T20:13:04-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "anth-5423931008",
+      "company": "Anthropic",
+      "position": "Copywriter, Developer",
+      "location": "San Francisco, CA | New York City, NY",
+      "remote": false,
+      "salary": "",
+      "description": "As a Copywriter, Developer at Anthropic, you will shape how our brand speaks to developers, an audience that is notoriously allergic to being marketed to and quick to spot anything that doesn't ring true. Developers who stay sharp, curious, and direct AI tools with their own judgment are the ones...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5423931008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5423931008",
+      "postedAt": "2026-09-16T15:39:40-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
+    {
+      "id": "rok-remote-ai-agent-engineer-sticker-mule-1137399",
+      "company": "Sticker Mule",
+      "position": "AI agent engineer",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Sticker Mule is building the most lucrative commerce platform on the Internet by combining software, manufacturing, and AI in one stack. We're hiring an engineer to build, run and manage a team of AI agents to help us innovate faster, improve performance, and better serve customers. Work performed...",
+      "applyUrl": "https://remoteOK.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399",
+      "source": "RemoteOK",
+      "sourceUrl": "https://remoteok.com/remote-jobs/remote-ai-agent-engineer-sticker-mule-1137399",
+      "postedAt": "2026-09-16T12:44:27+00:00",
+      "tags": [
+        "TypeScript",
+        "JavaScript",
+        "Go",
+        "PostgreSQL",
+        "GCP",
+        "GraphQL"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "anth-5425724008",
+      "company": "Anthropic",
+      "position": "Associate Solutions Architect",
+      "location": "London, UK",
+      "remote": false,
+      "salary": "",
+      "description": "We're looking for an Associate Solutions Architect to join our Applied AI team and help drive the adoption of Claude Code across our enterprise customers. As an Associate SA specializing in Claude Code, you'll be the technical bridge between our cutting-edge AI coding assistant and the engineering...",
+      "applyUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5425724008",
+      "source": "Anthropic",
+      "sourceUrl": "https://job-boards.greenhouse.io/anthropic/jobs/5425724008",
+      "postedAt": "2026-09-16T12:20:01-04:00",
+      "tags": [
+        "Rust",
+        "AWS",
+        "Claude Code",
+        "Anthropic"
+      ],
+      "companyIcon": "https://www.anthropic.com/favicon.ico"
+    },
     {
       "id": "anth-5421566008",
       "company": "Anthropic",
@@ -380,6 +483,51 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
+      "id": "wwr-toptal-automation-engineer-uipath-for-innovative-ai-project",
+      "company": "Toptal",
+      "position": "Automation Engineer (UIPath) for innovative AI Project",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: 📌 Summary We are seeking a hands-on, execution-focused Senior Automation & AI Systems Developer (UiPath & Power Platform) to build, scale, and maintain enterprise automations across our client's regional operations. In this role, you will own the end-to-end development lifecycle for...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/toptal-automation-engineer-uipath-for-innovative-ai-project",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/toptal-automation-engineer-uipath-for-innovative-ai-project",
+      "postedAt": "2026-08-26T13:48:50+00:00",
+      "tags": [
+        "Python",
+        "Azure",
+        "Copilot"
+      ],
+      "companyIcon": ""
+    },
+    {
+      "id": "wwr-offerup-software-development-engineer-ii-full-stack-business-remote-colombia",
+      "company": "OfferUp",
+      "position": "Software Development Engineer II Full Stack - Business (Remote @ Colombia)",
+      "location": "Remote",
+      "remote": true,
+      "salary": "",
+      "description": "Headquarters: Remote @ Colombia About the role: The OfferUp Business team owns the platforms that power every business vertical on our marketplace; Storefronts, Auto Dealers, Services, Rentals, and Jobs. Our customers aren't casually browsing; they're running businesses on top of what we build, so...",
+      "applyUrl": "https://weworkremotely.com/remote-jobs/offerup-software-development-engineer-ii-full-stack-business-remote-colombia",
+      "source": "WeWorkRemotely",
+      "sourceUrl": "https://weworkremotely.com/remote-jobs/offerup-software-development-engineer-ii-full-stack-business-remote-colombia",
+      "postedAt": "2026-08-26T07:30:39+00:00",
+      "tags": [
+        "React",
+        "TypeScript",
+        "Python",
+        "Rust",
+        "Node.js",
+        "AWS",
+        "Claude Code",
+        "Cursor",
+        "Copilot",
+        "Java"
+      ],
+      "companyIcon": ""
+    },
+    {
       "id": "anth-5390966008",
       "company": "Anthropic",
       "position": "Staff Software Engineer, GTM AI Engineering ",
@@ -552,112 +700,6 @@
       "companyIcon": "https://www.anthropic.com/favicon.ico"
     },
     {
-      "id": "wwr-huzzle-full-stack-developer-python-react-ai-1",
-      "company": "Huzzle",
-      "position": "Full-Stack Developer (Python, React, AI)",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Colombia About Huzzle At Huzzle, we connect high-performing B2B sales professionals with global companies across the UK, US, Canada, Europe, and Australia. Our clients include startups, digital agencies, and tech platforms in industries like SaaS, MarTech, FinTech, and EdTech. We...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/huzzle-full-stack-developer-python-react-ai-1",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/huzzle-full-stack-developer-python-react-ai-1",
-      "postedAt": "2026-08-18T20:34:11+00:00",
-      "tags": [
-        "React",
-        "Python",
-        "AWS",
-        "Claude Code",
-        "MongoDB"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "wwr-huzzle-full-stack-developer-python-react-ai",
-      "company": "Huzzle",
-      "position": "Full-Stack Developer (Python, React, AI)",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Mexico About Huzzle At Huzzle, we connect high-performing B2B sales professionals with global companies across the UK, US, Canada, Europe, and Australia. Our clients include startups, digital agencies, and tech platforms in industries like SaaS, MarTech, FinTech, and EdTech. We match...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/huzzle-full-stack-developer-python-react-ai",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/huzzle-full-stack-developer-python-react-ai",
-      "postedAt": "2026-08-18T20:34:05+00:00",
-      "tags": [
-        "React",
-        "Python",
-        "AWS",
-        "Claude Code",
-        "MongoDB"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "wwr-happyco-senior-product-designer-mobile-experience",
-      "company": "Happyco",
-      "position": "Senior Product Designer, Mobile Experience",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Remote (AU) HappyCo is a company where people can grow their careers and work with like minded people, with no egos or politics. HappyCo is values driven and offers a flexible, supportive culture. Join HappyCo and Make Work Happy ! Sitting within HappyCo’s mobile product team, the...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/happyco-senior-product-designer-mobile-experience",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/happyco-senior-product-designer-mobile-experience",
-      "postedAt": "2026-08-18T20:32:33+00:00",
-      "tags": [
-        "Rust",
-        "Go",
-        "Claude Code",
-        "Cursor"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "wwr-zeta-global-senior-product-designer-ai",
-      "company": "Zeta Global",
-      "position": "Senior Product Designer, AI",
-      "location": "Remote",
-      "remote": true,
-      "salary": "$160,000 - $180,000",
-      "description": "Headquarters: Remote - United States WHO WE ARE Zeta Global (NYSE: ZETA) is the AI-Powered Marketing Cloud that leverages advanced artificial intelligence (AI) and trillions of consumer signals to make it easier for marketers to acquire, grow, and retain customers more efficiently. Through the Zeta...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/zeta-global-senior-product-designer-ai",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/zeta-global-senior-product-designer-ai",
-      "postedAt": "2026-08-18T20:32:19+00:00",
-      "tags": [
-        "React",
-        "Next.js",
-        "Rust",
-        "Go",
-        "Claude Code",
-        "Cursor"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "wwr-zeta-global-senior-product-designer-agentic-ai-applications",
-      "company": "Zeta Global",
-      "position": "Senior Product Designer, Agentic AI Applications",
-      "location": "Remote",
-      "remote": true,
-      "salary": "$160,000 - $180,000",
-      "description": "Headquarters: Remote - United States WHO WE ARE Zeta Global (NYSE: ZETA) is the AI-Powered Marketing Cloud that leverages advanced artificial intelligence (AI) and trillions of consumer signals to make it easier for marketers to acquire, grow, and retain customers more efficiently. Through the Zeta...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/zeta-global-senior-product-designer-agentic-ai-applications",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/zeta-global-senior-product-designer-agentic-ai-applications",
-      "postedAt": "2026-08-18T20:32:19+00:00",
-      "tags": [
-        "React",
-        "Next.js",
-        "Rust",
-        "Go",
-        "Claude Code",
-        "Cursor"
-      ],
-      "companyIcon": ""
-    },
-    {
       "id": "anth-5390877008",
       "company": "Anthropic",
       "position": "Applied AI Architect, Public Sector (National Security)",
@@ -677,58 +719,6 @@
         "Anthropic"
       ],
       "companyIcon": "https://www.anthropic.com/favicon.ico"
-    },
-    {
-      "id": "wwr-collaboration-ai-senior-software-ai-engineer",
-      "company": "Collaboration.Ai",
-      "position": "Senior Software AI Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Minneapolis, MN URL: http://collaboration.ai Who We Are Collaboration.Ai is a mission-focused, AI-powered software and services company based in Minnesota, with employees, partners, and customers around the world. We unite people, technology, and purpose to accelerate breakthroughs...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/collaboration-ai-senior-software-ai-engineer",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/collaboration-ai-senior-software-ai-engineer",
-      "postedAt": "2026-08-17T11:57:38+00:00",
-      "tags": [
-        "TypeScript",
-        "Python",
-        "Rust",
-        "Node.js",
-        "PostgreSQL",
-        "AWS",
-        "Docker",
-        "Kubernetes",
-        "Claude Code",
-        "Kotlin"
-      ],
-      "companyIcon": ""
-    },
-    {
-      "id": "wwr-collaboration-ai-senior-software-engineer",
-      "company": "Collaboration.Ai",
-      "position": "Senior Software Engineer",
-      "location": "Remote",
-      "remote": true,
-      "salary": "",
-      "description": "Headquarters: Minneapolis, MN URL: http://collaboration.ai Who We Are Collaboration.Ai is a mission-focused, AI-powered software and services company based in Minnesota, with employees, partners, and customers around the world. We unite people, technology, and purpose to accelerate breakthroughs...",
-      "applyUrl": "https://weworkremotely.com/remote-jobs/collaboration-ai-senior-software-engineer",
-      "source": "WeWorkRemotely",
-      "sourceUrl": "https://weworkremotely.com/remote-jobs/collaboration-ai-senior-software-engineer",
-      "postedAt": "2026-08-17T11:51:08+00:00",
-      "tags": [
-        "React",
-        "Next.js",
-        "TypeScript",
-        "Python",
-        "Rust",
-        "PostgreSQL",
-        "AWS",
-        "Docker",
-        "Kubernetes",
-        "Claude Code"
-      ],
-      "companyIcon": ""
     },
     {
       "id": "anth-5391151008",
