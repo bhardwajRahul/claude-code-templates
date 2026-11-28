@@ -28680,6 +28680,39 @@
       }
     },
     {
+      "name": "npmscan",
+      "path": "devtools/npmscan.json",
+      "category": "devtools",
+      "type": "mcp",
+      "description": "npmscan remote MCP server (streamable HTTP, read-only, no account or API key). Free. Checks npm packages before install: known malware and vulnerabilities per version (OSV, GitHub advisories), maintainer and publisher changes, publish provenance against the source repo, and install-script analysis; also audits package.json and lockfiles. Lookups send package names and versions; the audit tools also receive whatever package.json, lockfile or SBOM text, or repository URL, you pass them. Docs: https://npmscan.com/mcp",
+      "author": "",
+      "repo": "",
+      "version": "",
+      "license": "",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "skillspector": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "issueCount": 0,
+        "analysis": "complete",
+        "findings": [],
+        "categories": {},
+        "hash": "dfee6874d29b7ed2",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
+      }
+    },
+    {
       "name": "orcareplay",
       "path": "devtools/orcareplay.json",
       "category": "devtools",
@@ -30750,6 +30783,39 @@
         "hash": "426469820c9ce3b5",
         "version": "2.12.0",
         "scannedAt": "2026-11-19T03:05:32Z"
+      }
+    },
+    {
+      "name": "tote",
+      "path": "productivity/tote.json",
+      "category": "productivity",
+      "type": "mcp",
+      "description": "Tote - hosted Streamable HTTP MCP server for shopping. Remembers your sizes and taste so your AI finds products and deals that fit you, checks 90 days of price history to tell you if a sale is real, and saves items to lists or sets Deal Watch price alerts. Free, OAuth sign-in in the browser, no API key. Never buys or pays; you always check out yourself. Website: https://tote.machinecommerce.co. Built by machinecommerce.co (https://machinecommerce.co)",
+      "author": "",
+      "repo": "",
+      "version": "",
+      "license": "",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "skillspector": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "issueCount": 0,
+        "analysis": "complete",
+        "findings": [],
+        "categories": {},
+        "hash": "59d175b1407fe3e1",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
       }
     },
     {
@@ -86432,6 +86498,281 @@
       }
     },
     {
+      "name": "seniormode",
+      "path": "development/seniormode",
+      "category": "development",
+      "type": "skill",
+      "description": "Build new software and improve or audit existing projects when the request involves a meaningful choice about architecture, correctness, data, reliability, performance, or product behavior. Use for ordinary project requests such as building a shop or music app, adding checkout or shuffle, and tracing duplicated feed entries.",
+      "author": "Enes Kerem Aydın",
+      "repo": "https://github.com/EnesKeremAYDIN/SeniorMode",
+      "version": "",
+      "license": "MIT",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "references": [
+        "LICENSE",
+        "LICENSE-CONTENT.md",
+        "references/audit.md",
+        "references/build.md",
+        "references/catalog/algorithms.md",
+        "references/catalog/architecture.md",
+        "references/catalog/backend.md",
+        "references/catalog/concurrency.md",
+        "references/catalog/data.md",
+        "references/catalog/frontend.md",
+        "references/catalog/geospatial.md",
+        "references/catalog/index.json",
+        "references/catalog/index.md",
+        "references/catalog/networking.md",
+        "references/catalog/performance.md",
+        "references/catalog/product.md",
+        "references/catalog/reliability.md",
+        "references/catalog/security.md",
+        "references/catalog/testing.md",
+        "references/knowledge/algorithms/binary-search.md",
+        "references/knowledge/algorithms/bloom-filter.md",
+        "references/knowledge/algorithms/count-min-sketch.md",
+        "references/knowledge/algorithms/knapsack-dp.md",
+        "references/knowledge/algorithms/mutual-friend-ranking.md",
+        "references/knowledge/algorithms/sliding-window-distance.md",
+        "references/knowledge/algorithms/topological-sort.md",
+        "references/knowledge/algorithms/trie-autocomplete.md",
+        "references/knowledge/architecture/batch-versus-streaming.md",
+        "references/knowledge/architecture/consistent-hashing.md",
+        "references/knowledge/architecture/dependency-injection-seam.md",
+        "references/knowledge/architecture/feed-fanout.md",
+        "references/knowledge/architecture/modular-monolith.md",
+        "references/knowledge/architecture/module-boundaries.md",
+        "references/knowledge/architecture/offline-sync-conflicts.md",
+        "references/knowledge/architecture/transactional-outbox.md",
+        "references/knowledge/backend/api-versioning.md",
+        "references/knowledge/backend/cursor-pagination.md",
+        "references/knowledge/backend/durable-job-scheduling.md",
+        "references/knowledge/backend/idempotent-consumer.md",
+        "references/knowledge/backend/message-acknowledgment.md",
+        "references/knowledge/backend/resumable-uploads.md",
+        "references/knowledge/backend/schema-validation.md",
+        "references/knowledge/backend/short-url-identifiers.md",
+        "references/knowledge/concurrency/atomic-file-replacement.md",
+        "references/knowledge/concurrency/bounded-concurrency.md",
+        "references/knowledge/concurrency/event-ordering.md",
+        "references/knowledge/concurrency/lease-fencing.md",
+        "references/knowledge/concurrency/operational-transformation.md",
+        "references/knowledge/concurrency/optimistic-concurrency.md",
+        "references/knowledge/concurrency/payment-idempotency.md",
+        "references/knowledge/concurrency/reservation-concurrency.md",
+        "references/knowledge/concurrency/sharded-counter.md",
+        "references/knowledge/data/cache-invalidation.md",
+        "references/knowledge/data/composite-indexes.md",
+        "references/knowledge/data/data-retention.md",
+        "references/knowledge/data/decimal-money.md",
+        "references/knowledge/data/embedded-database-choice.md",
+        "references/knowledge/data/index-freshness.md",
+        "references/knowledge/data/inverted-index.md",
+        "references/knowledge/data/lru-cache.md",
+        "references/knowledge/data/object-storage-lifecycle.md",
+        "references/knowledge/data/read-your-writes.md",
+        "references/knowledge/data/transaction-isolation.md",
+        "references/knowledge/data/zero-downtime-migrations.md",
+        "references/knowledge/frontend/accessibility-keyboard.md",
+        "references/knowledge/frontend/critical-rendering-path.md",
+        "references/knowledge/frontend/form-validation-boundaries.md",
+        "references/knowledge/frontend/optimistic-ui.md",
+        "references/knowledge/frontend/progressive-enhancement.md",
+        "references/knowledge/frontend/requests-race-cancellation.md",
+        "references/knowledge/frontend/responsive-table.md",
+        "references/knowledge/geospatial/geo-privacy-minimization.md",
+        "references/knowledge/geospatial/geometry-coordinate-systems.md",
+        "references/knowledge/geospatial/road-traffic-estimation.md",
+        "references/knowledge/geospatial/route-preprocessing.md",
+        "references/knowledge/geospatial/spatial-dispatch.md",
+        "references/knowledge/networking/dns-time-to-live.md",
+        "references/knowledge/networking/http-conditional-cache.md",
+        "references/knowledge/networking/live-stream-latency.md",
+        "references/knowledge/networking/rate-limiting.md",
+        "references/knowledge/networking/response-compression.md",
+        "references/knowledge/networking/sse-notifications.md",
+        "references/knowledge/networking/websocket-presence.md",
+        "references/knowledge/performance/bounded-memory-streaming.md",
+        "references/knowledge/performance/cache-stampede.md",
+        "references/knowledge/performance/latency-profiling.md",
+        "references/knowledge/performance/n-plus-one-queries.md",
+        "references/knowledge/performance/queue-capacity-planning.md",
+        "references/knowledge/performance/virtual-waiting-room.md",
+        "references/knowledge/product/consent-derived-preferences.md",
+        "references/knowledge/product/eventual-consistency-feedback.md",
+        "references/knowledge/product/feature-flags.md",
+        "references/knowledge/product/music-shuffle.md",
+        "references/knowledge/product/persistent-playback-queue.md",
+        "references/knowledge/product/time-zone-scheduling.md",
+        "references/knowledge/reliability/circuit-breaker.md",
+        "references/knowledge/reliability/dead-letter-queues.md",
+        "references/knowledge/reliability/disaster-recovery.md",
+        "references/knowledge/reliability/distributed-tracing.md",
+        "references/knowledge/reliability/graceful-shutdown.md",
+        "references/knowledge/reliability/outbound-timeouts.md",
+        "references/knowledge/reliability/primary-failover.md",
+        "references/knowledge/reliability/readiness-liveness.md",
+        "references/knowledge/reliability/retry-backoff.md",
+        "references/knowledge/reliability/rolling-deploy-compatibility.md",
+        "references/knowledge/reliability/slo-error-budget.md",
+        "references/knowledge/reliability/structured-logging.md",
+        "references/knowledge/security/authorization-object-scope.md",
+        "references/knowledge/security/content-security-policy.md",
+        "references/knowledge/security/cryptographic-randomness.md",
+        "references/knowledge/security/csrf-protection.md",
+        "references/knowledge/security/parameterized-queries.md",
+        "references/knowledge/security/safe-file-ingest.md",
+        "references/knowledge/security/secret-lifecycle.md",
+        "references/knowledge/security/webhook-verification.md",
+        "references/knowledge/testing/contract-testing.md",
+        "references/knowledge/testing/deterministic-time-tests.md",
+        "references/knowledge/testing/fault-injection-basics.md",
+        "references/knowledge/testing/load-test-arrival-model.md",
+        "references/knowledge/testing/property-based-testing.md",
+        "references/knowledge/testing/snapshot-test-scope.md",
+        "references/knowledge/testing/test-double-boundaries.md",
+        "references/standards.md",
+        "references/standards/api.md",
+        "references/standards/architecture.md",
+        "references/standards/code-principles.md",
+        "references/standards/configuration.md",
+        "references/standards/data.md",
+        "references/standards/dependencies.md",
+        "references/standards/documentation.md",
+        "references/standards/greenfield.md",
+        "references/standards/modularity.md",
+        "references/standards/observability.md",
+        "references/standards/performance.md",
+        "references/standards/refactoring.md",
+        "references/standards/reliability.md",
+        "references/standards/security.md",
+        "references/standards/structure.md",
+        "references/standards/testing.md"
+      ],
+      "source": {
+        "repo": "EnesKeremAYDIN/SeniorMode",
+        "path": "skills/seniormode",
+        "commit": "824f4239c54e777b4cabe8b7431d74df42d7d179",
+        "license": "MIT",
+        "url": "https://github.com/EnesKeremAYDIN/SeniorMode/tree/824f4239c54e777b4cabe8b7431d74df42d7d179/skills/seniormode",
+        "requires": []
+      },
+      "skillspector": {
+        "score": 78,
+        "severity": "HIGH",
+        "recommendation": "DO_NOT_INSTALL",
+        "issueCount": 75,
+        "analysis": "partial",
+        "findings": [
+          {
+            "id": "MP3",
+            "category": "Memory Poisoning",
+            "severity": "HIGH",
+            "title": "Memory Manipulation",
+            "file": "references/knowledge/concurrency/optimistic-concurrency.md",
+            "line": 7,
+            "count": 2
+          },
+          {
+            "id": "P2",
+            "category": "Prompt Injection",
+            "severity": "HIGH",
+            "title": "Hidden Instructions",
+            "file": "references/knowledge/algorithms/binary-search.md",
+            "line": 12,
+            "count": 1
+          },
+          {
+            "id": "P2",
+            "category": "Prompt Injection",
+            "severity": "HIGH",
+            "title": "Hidden Instructions",
+            "file": "references/knowledge/algorithms/bloom-filter.md",
+            "line": 12,
+            "count": 1
+          },
+          {
+            "id": "P2",
+            "category": "Prompt Injection",
+            "severity": "HIGH",
+            "title": "Hidden Instructions",
+            "file": "references/knowledge/algorithms/count-min-sketch.md",
+            "line": 12,
+            "count": 1
+          },
+          {
+            "id": "P2",
+            "category": "Prompt Injection",
+            "severity": "HIGH",
+            "title": "Hidden Instructions",
+            "file": "references/knowledge/algorithms/knapsack-dp.md",
+            "line": 12,
+            "count": 1
+          }
+        ],
+        "categories": {
+          "Prompt Injection": 72,
+          "Memory Poisoning": 2,
+          "Privilege Escalation": 1
+        },
+        "hash": "b80c53e2d87ba379",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
+      },
+      "harness": {
+        "agents": [
+          {
+            "id": "claude-code",
+            "status": "loads",
+            "verified": "2.1.316",
+            "notes": []
+          },
+          {
+            "id": "codex",
+            "status": "loads",
+            "verified": "0.166.0",
+            "notes": []
+          },
+          {
+            "id": "copilot-cli",
+            "status": "loads",
+            "verified": "1.0.105",
+            "notes": []
+          },
+          {
+            "id": "opencode",
+            "status": "loads",
+            "verified": "1.19.5",
+            "notes": []
+          },
+          {
+            "id": "hermes",
+            "status": "loads",
+            "verified": "main",
+            "notes": []
+          },
+          {
+            "id": "openclaw",
+            "status": "loads",
+            "verified": "2026.10.9",
+            "notes": []
+          }
+        ],
+        "version": "1.0.1",
+        "checkedAt": "2026-11-28T19:36:27Z",
+        "hash": "b80c53e2d87ba379"
+      }
+    },
+    {
       "name": "seo",
       "path": "development/seo",
       "category": "development",
@@ -123566,6 +123907,95 @@
       }
     },
     {
+      "name": "npm-supply-chain-check",
+      "path": "security/npm-supply-chain-check",
+      "category": "security",
+      "type": "skill",
+      "description": "Check whether an npm package is safe to install before adding or upgrading it — known malware, vulnerabilities for the exact version, recent publisher or maintainer changes (the account-takeover pattern behind ua-parser-js, event-stream and the 2025 chalk/debug compromise), missing or mismatched publish provenance, install scripts, and typosquat names. Use when the user or the agent is about to run npm/pnpm/yarn/bun install or add a dependency, asks \"is X safe,\" \"was X compromised,\" \"can I trust this package,\" or names a package that looks suspicious. Works with plain npm and curl; uses the free npmscan MCP server for deeper checks when it is connected.",
+      "author": "salemalem",
+      "repo": "",
+      "version": "1.0",
+      "license": "",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "references": [],
+      "skillspector": {
+        "score": 9,
+        "severity": "LOW",
+        "recommendation": "CAUTION",
+        "issueCount": 3,
+        "analysis": "partial",
+        "findings": [
+          {
+            "id": "E1",
+            "category": "Data Exfiltration",
+            "severity": "MEDIUM",
+            "title": "External Transmission",
+            "file": "SKILL.md",
+            "line": 98,
+            "count": 3
+          }
+        ],
+        "categories": {
+          "Data Exfiltration": 3
+        },
+        "hash": "344c21bea1be872e",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
+      },
+      "harness": {
+        "agents": [
+          {
+            "id": "claude-code",
+            "status": "loads",
+            "verified": "2.1.316",
+            "notes": []
+          },
+          {
+            "id": "codex",
+            "status": "loads",
+            "verified": "0.166.0",
+            "notes": []
+          },
+          {
+            "id": "copilot-cli",
+            "status": "loads",
+            "verified": "1.0.105",
+            "notes": []
+          },
+          {
+            "id": "opencode",
+            "status": "loads",
+            "verified": "1.19.5",
+            "notes": []
+          },
+          {
+            "id": "hermes",
+            "status": "loads",
+            "verified": "main",
+            "notes": []
+          },
+          {
+            "id": "openclaw",
+            "status": "loads",
+            "verified": "2026.10.9",
+            "notes": []
+          }
+        ],
+        "version": "1.0.1",
+        "checkedAt": "2026-11-28T19:36:27Z",
+        "hash": "344c21bea1be872e"
+      }
+    },
+    {
       "name": "pentest-checklist",
       "path": "security/pentest-checklist",
       "category": "security",
@@ -126927,6 +127357,721 @@
         "version": "1.0.1",
         "checkedAt": "2026-11-18T20:31:10Z",
         "hash": "179a0dac4e54f398"
+      }
+    },
+    {
+      "name": "ai-driven-prd",
+      "path": "soft-eng-skills/ai-driven-prd",
+      "category": "soft-eng-skills",
+      "type": "skill",
+      "description": "Use when the user wants to author, refine, or audit a Product Requirements Document for AI coding agents. Walks through an 8-phase pipeline (Socratic discovery → PRD draft → acceptance criteria → adversarial review → task decomposition → AI-readiness gate → test generation → handoff). Triggers on \"write a PRD\", \"spec this feature\", \"draft requirements\", \"prepare X for Claude/Cursor/Copilot/Windsurf/Aider to build\", \"audit my PRD\", \"is this PRD AI-ready\", \"score this spec\".",
+      "author": "el-frontend",
+      "repo": "https://github.com/el-frontend/software-engineering-skills",
+      "version": "",
+      "license": "MIT",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "references": [
+        "LICENSE",
+        "prompts/01-discovery.md",
+        "prompts/02-raw-to-prd.md",
+        "prompts/03-acceptance.md",
+        "prompts/04-adversarial.md",
+        "prompts/05-tasks.md",
+        "prompts/06-readiness.md",
+        "prompts/07-tests.md",
+        "prompts/08-execution.md",
+        "references/anti-patterns.md",
+        "references/checklist.md",
+        "references/examples.md",
+        "references/tooling-notes.md",
+        "templates/master-prd.md"
+      ],
+      "source": {
+        "repo": "el-frontend/software-engineering-skills",
+        "path": "skills/ai-driven-prd",
+        "commit": "772fdb29ac782bc69e5593307967b045e8d4e199",
+        "license": "MIT",
+        "url": "https://github.com/el-frontend/software-engineering-skills/tree/772fdb29ac782bc69e5593307967b045e8d4e199/skills/ai-driven-prd",
+        "requires": []
+      },
+      "skillspector": {
+        "score": 24,
+        "severity": "MEDIUM",
+        "recommendation": "CAUTION",
+        "issueCount": 3,
+        "analysis": "partial",
+        "findings": [
+          {
+            "id": "AS3",
+            "category": "Agent Snooping",
+            "severity": "MEDIUM",
+            "title": "Skill Enumeration",
+            "file": "references/tooling-notes.md",
+            "line": 12,
+            "count": 1
+          },
+          {
+            "id": "MP2",
+            "category": "Memory Poisoning",
+            "severity": "MEDIUM",
+            "title": "Context Window Stuffing",
+            "file": "SKILL.md",
+            "line": 60,
+            "count": 1
+          },
+          {
+            "id": "EA2",
+            "category": "Excessive Agency",
+            "severity": "MEDIUM",
+            "title": "Autonomous Decision Making",
+            "file": "references/anti-patterns.md",
+            "line": 33,
+            "count": 1
+          }
+        ],
+        "categories": {
+          "Agent Snooping": 1,
+          "Excessive Agency": 1,
+          "Memory Poisoning": 1
+        },
+        "hash": "3dbfaa48ec9e017b",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
+      },
+      "harness": {
+        "agents": [
+          {
+            "id": "claude-code",
+            "status": "loads",
+            "verified": "2.1.316",
+            "notes": []
+          },
+          {
+            "id": "codex",
+            "status": "loads",
+            "verified": "0.166.0",
+            "notes": []
+          },
+          {
+            "id": "copilot-cli",
+            "status": "loads",
+            "verified": "1.0.105",
+            "notes": []
+          },
+          {
+            "id": "opencode",
+            "status": "loads",
+            "verified": "1.19.5",
+            "notes": []
+          },
+          {
+            "id": "hermes",
+            "status": "loads",
+            "verified": "main",
+            "notes": []
+          },
+          {
+            "id": "openclaw",
+            "status": "loads",
+            "verified": "2026.10.9",
+            "notes": []
+          }
+        ],
+        "version": "1.0.1",
+        "checkedAt": "2026-11-28T19:36:27Z",
+        "hash": "3dbfaa48ec9e017b"
+      }
+    },
+    {
+      "name": "declarative-design",
+      "path": "soft-eng-skills/declarative-design",
+      "category": "soft-eng-skills",
+      "type": "skill",
+      "description": "Use when the user wants to bring UI designs into a project for a PRD requirement. Identifies the screens/states a requirement needs, helps the user generate them via Stitch or Claude Design (or import existing exports), and places HTML + screenshot pairs under docs/designs/<FR-N>-<slug>.{html,png} so implementation can reference them. Triggers on \"import these designs\", \"add screens for FR-001\", \"set up the designs for this requirement\", \"vibe design this screen\", \"/designs FR-N\".",
+      "author": "el-frontend",
+      "repo": "https://github.com/el-frontend/software-engineering-skills",
+      "version": "",
+      "license": "MIT",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "references": [
+        "LICENSE",
+        "prompts/01-identify-screens.md",
+        "prompts/02-acquire-designs.md",
+        "prompts/03-place-designs.md",
+        "references/anti-patterns.md",
+        "references/checklist.md",
+        "references/naming.md",
+        "templates/vibe-prompt.md.tmpl"
+      ],
+      "source": {
+        "repo": "el-frontend/software-engineering-skills",
+        "path": "skills/declarative-design",
+        "commit": "772fdb29ac782bc69e5593307967b045e8d4e199",
+        "license": "MIT",
+        "url": "https://github.com/el-frontend/software-engineering-skills/tree/772fdb29ac782bc69e5593307967b045e8d4e199/skills/declarative-design",
+        "requires": []
+      },
+      "skillspector": {
+        "score": 0,
+        "severity": "LOW",
+        "recommendation": "CAUTION",
+        "issueCount": 0,
+        "analysis": "partial",
+        "findings": [],
+        "categories": {},
+        "hash": "81fc6069eea9fda0",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
+      },
+      "harness": {
+        "agents": [
+          {
+            "id": "claude-code",
+            "status": "loads",
+            "verified": "2.1.316",
+            "notes": []
+          },
+          {
+            "id": "codex",
+            "status": "loads",
+            "verified": "0.166.0",
+            "notes": []
+          },
+          {
+            "id": "copilot-cli",
+            "status": "loads",
+            "verified": "1.0.105",
+            "notes": []
+          },
+          {
+            "id": "opencode",
+            "status": "loads",
+            "verified": "1.19.5",
+            "notes": []
+          },
+          {
+            "id": "hermes",
+            "status": "loads",
+            "verified": "main",
+            "notes": []
+          },
+          {
+            "id": "openclaw",
+            "status": "loads",
+            "verified": "2026.10.9",
+            "notes": []
+          }
+        ],
+        "version": "1.0.1",
+        "checkedAt": "2026-11-28T19:36:27Z",
+        "hash": "81fc6069eea9fda0"
+      }
+    },
+    {
+      "name": "execute-plan",
+      "path": "soft-eng-skills/execute-plan",
+      "category": "soft-eng-skills",
+      "type": "skill",
+      "description": "Use when the user wants to implement a development plan from docs/plans/<FR-N>.md against the target codebase. Drives the task loop — reads the plan, implements each `[ ]` task as a vertical slice (code + test + typecheck + lint), commits per task with conventional commits, marks `[x]` in the same commit, then finalizes by proposing a PR. Triggers on \"execute the plan\", \"implement docs/plans/FR-001.md\", \"run the dev loop on FR-001\", \"ship FR-001\", \"/execute FR-N\".",
+      "author": "el-frontend",
+      "repo": "https://github.com/el-frontend/software-engineering-skills",
+      "version": "",
+      "license": "MIT",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "references": [
+        "LICENSE",
+        "prompts/01-load-context.md",
+        "prompts/02-task-loop.md",
+        "prompts/03-finalize.md",
+        "references/anti-patterns.md",
+        "references/checklist.md",
+        "templates/task-execution.md.tmpl"
+      ],
+      "source": {
+        "repo": "el-frontend/software-engineering-skills",
+        "path": "skills/execute-plan",
+        "commit": "772fdb29ac782bc69e5593307967b045e8d4e199",
+        "license": "MIT",
+        "url": "https://github.com/el-frontend/software-engineering-skills/tree/772fdb29ac782bc69e5593307967b045e8d4e199/skills/execute-plan",
+        "requires": []
+      },
+      "skillspector": {
+        "score": 27,
+        "severity": "MEDIUM",
+        "recommendation": "CAUTION",
+        "issueCount": 4,
+        "analysis": "partial",
+        "findings": [
+          {
+            "id": "AS3",
+            "category": "Agent Snooping",
+            "severity": "MEDIUM",
+            "title": "Skill Enumeration",
+            "file": "SKILL.md",
+            "line": 70,
+            "count": 2
+          },
+          {
+            "id": "EA4",
+            "category": "Excessive Agency",
+            "severity": "MEDIUM",
+            "title": "Unbounded Resource Access",
+            "file": "SKILL.md",
+            "line": 47,
+            "count": 1
+          },
+          {
+            "id": "EA2",
+            "category": "Excessive Agency",
+            "severity": "MEDIUM",
+            "title": "Autonomous Decision Making",
+            "file": "references/anti-patterns.md",
+            "line": 32,
+            "count": 1
+          }
+        ],
+        "categories": {
+          "Agent Snooping": 2,
+          "Excessive Agency": 2
+        },
+        "hash": "1d2cd97e2951ba86",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
+      },
+      "harness": {
+        "agents": [
+          {
+            "id": "claude-code",
+            "status": "loads",
+            "verified": "2.1.316",
+            "notes": []
+          },
+          {
+            "id": "codex",
+            "status": "loads",
+            "verified": "0.166.0",
+            "notes": []
+          },
+          {
+            "id": "copilot-cli",
+            "status": "loads",
+            "verified": "1.0.105",
+            "notes": []
+          },
+          {
+            "id": "opencode",
+            "status": "loads",
+            "verified": "1.19.5",
+            "notes": []
+          },
+          {
+            "id": "hermes",
+            "status": "loads",
+            "verified": "main",
+            "notes": []
+          },
+          {
+            "id": "openclaw",
+            "status": "loads",
+            "verified": "2026.10.9",
+            "notes": []
+          }
+        ],
+        "version": "1.0.1",
+        "checkedAt": "2026-11-28T19:36:27Z",
+        "hash": "1d2cd97e2951ba86"
+      }
+    },
+    {
+      "name": "generate-dev-plan",
+      "path": "soft-eng-skills/generate-dev-plan",
+      "category": "soft-eng-skills",
+      "type": "skill",
+      "description": "Use when the user wants to turn a PRD requirement (FR-N or similar ID) into an executable development plan. Locates the requirement in docs/prd/, investigates the surrounding code, asks clarifying questions, and produces docs/plans/<FR-N>.md as a markdown checkbox list of independent, vertical-slice tasks. Triggers on \"make a plan for FR-001\", \"generate a plan for this requirement\", \"break this PRD into tasks\", \"plan the implementation of FR-N\", \"create a dev plan\", \"/plan FR-N\".",
+      "author": "el-frontend",
+      "repo": "https://github.com/el-frontend/software-engineering-skills",
+      "version": "",
+      "license": "MIT",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "references": [
+        "LICENSE",
+        "prompts/01-locate-requirement.md",
+        "prompts/02-investigate.md",
+        "prompts/03-write-plan.md",
+        "references/anti-patterns.md",
+        "references/checklist.md",
+        "templates/plan.md.tmpl"
+      ],
+      "source": {
+        "repo": "el-frontend/software-engineering-skills",
+        "path": "skills/generate-dev-plan",
+        "commit": "772fdb29ac782bc69e5593307967b045e8d4e199",
+        "license": "MIT",
+        "url": "https://github.com/el-frontend/software-engineering-skills/tree/772fdb29ac782bc69e5593307967b045e8d4e199/skills/generate-dev-plan",
+        "requires": []
+      },
+      "skillspector": {
+        "score": 21,
+        "severity": "MEDIUM",
+        "recommendation": "CAUTION",
+        "issueCount": 4,
+        "analysis": "partial",
+        "findings": [
+          {
+            "id": "AS3",
+            "category": "Agent Snooping",
+            "severity": "MEDIUM",
+            "title": "Skill Enumeration",
+            "file": "SKILL.md",
+            "line": 69,
+            "count": 1
+          },
+          {
+            "id": "EA2",
+            "category": "Excessive Agency",
+            "severity": "MEDIUM",
+            "title": "Autonomous Decision Making",
+            "file": "SKILL.md",
+            "line": 41,
+            "count": 1
+          },
+          {
+            "id": "EA2",
+            "category": "Excessive Agency",
+            "severity": "MEDIUM",
+            "title": "Autonomous Decision Making",
+            "file": "prompts/01-locate-requirement.md",
+            "line": 86,
+            "count": 1
+          },
+          {
+            "id": "EA2",
+            "category": "Excessive Agency",
+            "severity": "MEDIUM",
+            "title": "Autonomous Decision Making",
+            "file": "references/checklist.md",
+            "line": 18,
+            "count": 1
+          }
+        ],
+        "categories": {
+          "Excessive Agency": 3,
+          "Agent Snooping": 1
+        },
+        "hash": "e50fa9186ffee504",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
+      },
+      "harness": {
+        "agents": [
+          {
+            "id": "claude-code",
+            "status": "loads",
+            "verified": "2.1.316",
+            "notes": []
+          },
+          {
+            "id": "codex",
+            "status": "loads",
+            "verified": "0.166.0",
+            "notes": []
+          },
+          {
+            "id": "copilot-cli",
+            "status": "loads",
+            "verified": "1.0.105",
+            "notes": []
+          },
+          {
+            "id": "opencode",
+            "status": "loads",
+            "verified": "1.19.5",
+            "notes": []
+          },
+          {
+            "id": "hermes",
+            "status": "loads",
+            "verified": "main",
+            "notes": []
+          },
+          {
+            "id": "openclaw",
+            "status": "loads",
+            "verified": "2026.10.9",
+            "notes": []
+          }
+        ],
+        "version": "1.0.1",
+        "checkedAt": "2026-11-28T19:36:27Z",
+        "hash": "e50fa9186ffee504"
+      }
+    },
+    {
+      "name": "init-claude-project",
+      "path": "soft-eng-skills/init-claude-project",
+      "category": "soft-eng-skills",
+      "type": "skill",
+      "description": "Use when the user wants to bootstrap a target codebase for AI-driven development with Claude Code. Generates a concise CLAUDE.md grounded in the actual stack (build tools, test runner, code style), creates a docs/ folder skeleton (designs/, prd/, plans/), and seeds conventions (conventional commits, plan-checkbox format, where designs and PRDs live). Triggers on \"init Claude in this repo\", \"set up CLAUDE.md\", \"bootstrap docs folder\", \"prepare this project for Claude Code\", \"scaffold AI dev workflow\", \"/init this project\".",
+      "author": "el-frontend",
+      "repo": "https://github.com/el-frontend/software-engineering-skills",
+      "version": "",
+      "license": "MIT",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "references": [
+        "LICENSE",
+        "prompts/01-discover-stack.md",
+        "prompts/02-fill-claude-md.md",
+        "prompts/03-bootstrap-docs.md",
+        "references/anti-patterns.md",
+        "references/checklist.md",
+        "references/conventions.md",
+        "templates/CLAUDE.md.tmpl",
+        "templates/docs-readme.md.tmpl"
+      ],
+      "source": {
+        "repo": "el-frontend/software-engineering-skills",
+        "path": "skills/init-claude-project",
+        "commit": "772fdb29ac782bc69e5593307967b045e8d4e199",
+        "license": "MIT",
+        "url": "https://github.com/el-frontend/software-engineering-skills/tree/772fdb29ac782bc69e5593307967b045e8d4e199/skills/init-claude-project",
+        "requires": []
+      },
+      "skillspector": {
+        "score": 19,
+        "severity": "LOW",
+        "recommendation": "CAUTION",
+        "issueCount": 3,
+        "analysis": "partial",
+        "findings": [
+          {
+            "id": "AS3",
+            "category": "Agent Snooping",
+            "severity": "MEDIUM",
+            "title": "Skill Enumeration",
+            "file": "prompts/03-bootstrap-docs.md",
+            "line": 61,
+            "count": 1
+          },
+          {
+            "id": "EA2",
+            "category": "Excessive Agency",
+            "severity": "MEDIUM",
+            "title": "Autonomous Decision Making",
+            "file": "references/anti-patterns.md",
+            "line": 49,
+            "count": 2
+          }
+        ],
+        "categories": {
+          "Excessive Agency": 2,
+          "Agent Snooping": 1
+        },
+        "hash": "cde3522d552719ca",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
+      },
+      "harness": {
+        "agents": [
+          {
+            "id": "claude-code",
+            "status": "loads",
+            "verified": "2.1.316",
+            "notes": []
+          },
+          {
+            "id": "codex",
+            "status": "loads",
+            "verified": "0.166.0",
+            "notes": []
+          },
+          {
+            "id": "copilot-cli",
+            "status": "loads",
+            "verified": "1.0.105",
+            "notes": []
+          },
+          {
+            "id": "opencode",
+            "status": "loads",
+            "verified": "1.19.5",
+            "notes": []
+          },
+          {
+            "id": "hermes",
+            "status": "loads",
+            "verified": "main",
+            "notes": []
+          },
+          {
+            "id": "openclaw",
+            "status": "loads",
+            "verified": "2026.10.9",
+            "notes": []
+          }
+        ],
+        "version": "1.0.1",
+        "checkedAt": "2026-11-28T19:36:27Z",
+        "hash": "cde3522d552719ca"
+      }
+    },
+    {
+      "name": "using-agent-skills",
+      "path": "soft-eng-skills/using-agent-skills",
+      "category": "soft-eng-skills",
+      "type": "skill",
+      "description": "Use when starting a session, deciding which framework skill applies to the current task, or sequencing them across a feature. Maps the user's intent to one of the five framework skills (ai-driven-prd, init-claude-project, generate-dev-plan, declarative-design, execute-plan) and enforces the cross-skill operating behaviors. Triggers on \"which skill should I use\", \"where do I start\", \"how do these skills fit together\", \"I have a PRD now what\", \"/using-agent-skills\".",
+      "author": "el-frontend",
+      "repo": "https://github.com/el-frontend/software-engineering-skills",
+      "version": "",
+      "license": "MIT",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "references": [
+        "LICENSE"
+      ],
+      "source": {
+        "repo": "el-frontend/software-engineering-skills",
+        "path": "skills/using-agent-skills",
+        "commit": "772fdb29ac782bc69e5593307967b045e8d4e199",
+        "license": "MIT",
+        "url": "https://github.com/el-frontend/software-engineering-skills/tree/772fdb29ac782bc69e5593307967b045e8d4e199/skills/using-agent-skills",
+        "requires": [
+          "soft-eng-skills/ai-driven-prd",
+          "soft-eng-skills/init-claude-project",
+          "soft-eng-skills/generate-dev-plan",
+          "soft-eng-skills/declarative-design",
+          "soft-eng-skills/execute-plan"
+        ]
+      },
+      "skillspector": {
+        "score": 39,
+        "severity": "MEDIUM",
+        "recommendation": "CAUTION",
+        "issueCount": 11,
+        "analysis": "partial",
+        "findings": [
+          {
+            "id": "AE1",
+            "category": "analysis-evasion",
+            "severity": "HIGH",
+            "title": "Incomplete referenced artifact analysis",
+            "file": "SKILL.md",
+            "line": 121,
+            "count": 1
+          },
+          {
+            "id": "AS3",
+            "category": "Agent Snooping",
+            "severity": "MEDIUM",
+            "title": "Skill Enumeration",
+            "file": "SKILL.md",
+            "line": 155,
+            "count": 10
+          }
+        ],
+        "categories": {
+          "Agent Snooping": 10,
+          "analysis-evasion": 1
+        },
+        "hash": "e57cf9e38846f412",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T19:35:49Z"
+      },
+      "harness": {
+        "agents": [
+          {
+            "id": "claude-code",
+            "status": "loads",
+            "verified": "2.1.316",
+            "notes": []
+          },
+          {
+            "id": "codex",
+            "status": "loads",
+            "verified": "0.166.0",
+            "notes": []
+          },
+          {
+            "id": "copilot-cli",
+            "status": "loads",
+            "verified": "1.0.105",
+            "notes": []
+          },
+          {
+            "id": "opencode",
+            "status": "loads",
+            "verified": "1.19.5",
+            "notes": []
+          },
+          {
+            "id": "hermes",
+            "status": "loads",
+            "verified": "main",
+            "notes": []
+          },
+          {
+            "id": "openclaw",
+            "status": "loads",
+            "verified": "2026.10.9",
+            "notes": []
+          }
+        ],
+        "version": "1.0.1",
+        "checkedAt": "2026-11-28T19:36:27Z",
+        "hash": "e57cf9e38846f412"
       }
     },
     {
