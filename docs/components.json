@@ -29007,6 +29007,60 @@
       }
     },
     {
+      "name": "straitly",
+      "path": "devtools/straitly.json",
+      "category": "devtools",
+      "type": "mcp",
+      "description": "Official Straitly MCP server. Straitly is an AI gateway for startups: one OpenAI-compatible API key for 100+ models including Claude, GPT, Gemini, Grok and DeepSeek. Lets Claude Code search the live model catalog and fetch model metadata (list_models, get_model, model_prices, compare_models) and run chat completions against https://api.straitly.ai/v1 (chat_completion). Runs locally over stdio via npx; the catalog tools need no key, chat_completion reads STRAITLY_API_KEY.",
+      "author": "",
+      "repo": "",
+      "version": "",
+      "license": "",
+      "keywords": [],
+      "downloads": 0,
+      "security": {
+        "validated": false,
+        "valid": null,
+        "score": null,
+        "errorCount": 0,
+        "warningCount": 0,
+        "lastValidated": null
+      },
+      "skillspector": {
+        "score": 7,
+        "severity": "LOW",
+        "recommendation": "SAFE",
+        "issueCount": 2,
+        "analysis": "complete",
+        "findings": [
+          {
+            "id": "E1",
+            "category": "Data Exfiltration",
+            "severity": "MEDIUM",
+            "title": "External Transmission",
+            "file": "SKILL.md",
+            "line": 3,
+            "count": 1
+          },
+          {
+            "id": "E1",
+            "category": "Data Exfiltration",
+            "severity": "MEDIUM",
+            "title": "External Transmission",
+            "file": "straitly.json",
+            "line": 4,
+            "count": 1
+          }
+        ],
+        "categories": {
+          "Data Exfiltration": 2
+        },
+        "hash": "5a3be80e94c16812",
+        "version": "2.12.0",
+        "scannedAt": "2026-11-28T20:15:05Z"
+      }
+    },
+    {
       "name": "stripe",
       "path": "devtools/stripe.json",
       "category": "devtools",
